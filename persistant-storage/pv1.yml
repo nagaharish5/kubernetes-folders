@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: pv-voll
+spec:
+  acessModes:
+      -ReadWriteOnce
+  capacity:
+      storage: 1Gi
+  hostpath:
+     path: /tmp/data

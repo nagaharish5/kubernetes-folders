@@ -1,0 +1,4 @@
+kubectl taint nodes node1 key1=value1:NoSchedule
+
+ex:
+kubectl taint nodes node1 app_type=alpha:NoSchedule
